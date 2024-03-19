@@ -5,8 +5,8 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('izitoast/dist/css/iziToast.min.css');
+@import url('flatpickr/dist/flatpickr.min.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -23,3 +23,102 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+.text-link {
+  display: block;
+  color: black;
+  margin-left: 26px;
+  margin-bottom: 5px;
+  border: 1px solid grey;
+  padding: 5px;
+  height: 20px;
+  width: 70px;
+  text-align: center;
+}
+
+.timer-box {
+  margin-left: 105px;
+  margin-top: 40px;
+}
+
+#datetime-picker {
+  margin-right: 8px;
+  padding: 6px;
+  width: 272px;
+  border-radius: 4px;
+  border-width: 0.5px;
+  border-color: #808080;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  outline: none;
+}
+
+.btn-timer {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #989898;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #cfcfcf;
+  border: none;
+}
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+  width: 346px;
+  height: 72px;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  text-align: center;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.form {
+  display: block;
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+}
+
+fieldset {
+  margin: 20px 0;
+  display: flex;
+  max-width: 250px;
+  column-gap: 30px;
+}
+
+
